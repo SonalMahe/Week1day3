@@ -30,7 +30,7 @@ const listContacts = () => {
 // Function 3 findByName-
 function findByName(name: string): Contact[] {
     let result = contacts.filter(c => c.name === name);
-    console.log("Found", result.length, "contact(s)");
+    console.log("Name is Found", result.length, "contact");
     return result;
 }
 
